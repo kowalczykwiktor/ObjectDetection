@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+ # Files
+resnet50_coco_best_v2.0.1.h5
+ObjectDetection.jpg
+
 # C extensions
 *.so
 
