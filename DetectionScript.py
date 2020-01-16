@@ -10,3 +10,6 @@ pip3 install h5py
 pip3 install keras
 pip3 install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.1/imageai-2.0.1-py3-none-any.whl
 
+from imageai.Detection import ObjectDetection
+import os
+
