@@ -13,3 +13,5 @@ pip3 install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.1/im
 from imageai.Detection import ObjectDetection
 import os
 
+execution_path = os.getcwd()
+
