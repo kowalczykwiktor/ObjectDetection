@@ -1,4 +1,4 @@
-python3 -m pip install --upgrade pip
+# python3 -m pip install --upgrade pip
 
 pip3 install tensorflow
 pip3 install numpy
