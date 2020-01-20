@@ -21,4 +21,5 @@ detector.setModelPath( os.path.join(execution_path , "resnet50_coco_best_v2.0.1.
 detector.loadModel()
 detections = detector.detectObjectsFromImage(input_image=os.path.join(execution_path , "DetectionImage.jpg"), output_image_path=os.path.join(execution_path , "ObjectDetection.jpg"))
 
-
+for eachObject in detections:
+    print(eachObject["name"] , " : " , eachObject["percentage_probability"] )
